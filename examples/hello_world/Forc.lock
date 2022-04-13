@@ -1,0 +1,12 @@
+[[package]]
+name = 'core'
+dependencies = []
+
+[[package]]
+name = 'hello_world'
+dependencies = ['std git+https://github.com/FuelLabs/sway?branch=master#6f3439a6431037feee369d584240e3d19b235f41']
+
+[[package]]
+name = 'std'
+source = 'git+https://github.com/FuelLabs/sway?branch=master#6f3439a6431037feee369d584240e3d19b235f41'
+dependencies = ['core']

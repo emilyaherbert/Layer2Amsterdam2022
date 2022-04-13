@@ -1,0 +1,24 @@
+[[package]]
+name = 'core'
+dependencies = []
+
+[[package]]
+name = 'counter_abi'
+dependencies = ['std git+https://github.com/fuellabs/sway?tag=v0.10.1#5c85d2b712975669d238233297443557969dec43']
+
+[[package]]
+name = 'counter_contract'
+dependencies = [
+    'counter_abi',
+    'std git+https://github.com/FuelLabs/sway?branch=master#6f3439a6431037feee369d584240e3d19b235f41',
+]
+
+[[package]]
+name = 'std'
+source = 'git+https://github.com/FuelLabs/sway?branch=master#6f3439a6431037feee369d584240e3d19b235f41'
+dependencies = ['core']
+
+[[package]]
+name = 'std'
+source = 'git+https://github.com/fuellabs/sway?tag=v0.10.1#5c85d2b712975669d238233297443557969dec43'
+dependencies = ['core']
