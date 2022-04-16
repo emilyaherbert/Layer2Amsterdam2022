@@ -1,9 +1,0 @@
-[project]
-authors = ["Emily Herbert"]
-entry = "main.sw"
-license = "Apache-2.0"
-name = "call_counter"
-
-[dependencies]
-std = { git = "https://github.com/FuelLabs/sway", branch = "master" }
-counter_abi = { path = "../counter_abi" }

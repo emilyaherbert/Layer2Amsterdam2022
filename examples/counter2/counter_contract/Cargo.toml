@@ -2,7 +2,7 @@
 authors = ["Emily Herbert"]
 edition = "2021"
 license = "Apache-2.0"
-name = "counter_abi"
+name = "counter_contract"
 version = "0.1.0"
 
 [dependencies]
