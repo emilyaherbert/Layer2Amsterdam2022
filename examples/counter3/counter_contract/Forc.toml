@@ -6,5 +6,5 @@ name = "counter_contract"
 
 [dependencies]
 counter_library = { path = "../counter_library" }
-
+std = { git = "http://github.com/FuelLabs/sway" }
 

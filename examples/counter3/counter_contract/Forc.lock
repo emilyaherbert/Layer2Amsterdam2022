@@ -6,12 +6,17 @@ dependencies = []
 name = 'counter_contract'
 dependencies = [
     'counter_library',
-    'std git+https://github.com/fuellabs/sway?tag=v0.10.1#5c85d2b712975669d238233297443557969dec43',
+    'std git+http://github.com/FuelLabs/sway?default-branch#45cbe7ec28283def04645e2f388d7b7259bf22ec',
 ]
 
 [[package]]
 name = 'counter_library'
 dependencies = ['std git+https://github.com/fuellabs/sway?tag=v0.10.1#5c85d2b712975669d238233297443557969dec43']
+
+[[package]]
+name = 'std'
+source = 'git+http://github.com/FuelLabs/sway?default-branch#45cbe7ec28283def04645e2f388d7b7259bf22ec'
+dependencies = ['core']
 
 [[package]]
 name = 'std'

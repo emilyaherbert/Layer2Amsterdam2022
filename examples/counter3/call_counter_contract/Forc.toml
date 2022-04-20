@@ -2,9 +2,8 @@
 authors = ["Emily Herbert"]
 entry = "main.sw"
 license = "Apache-2.0"
-name = "counter_contract"
+name = "call_counter_contract"
 
 [dependencies]
 counter_library = { path = "../counter_library" }
-
 
